@@ -1,0 +1,7 @@
+To run the program, change the extension in the line 
+f = open("output.txt","wb+")
+to the extension of the file you want to compress e.g. "output.png" or "output.gif" if the input is a png or a gif.
+Run the program and enter the name of the file you want to compress when prompted e.g. text.txt
+The file must be in the same directory as the program
+The encoding and decoding times will be displayed, the compressed file will be called compressed.txt
+and the decoded file will be output.txt, output.png etc depending on the input type.
